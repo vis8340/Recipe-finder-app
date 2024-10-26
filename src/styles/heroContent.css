@@ -1,0 +1,97 @@
+.heroContainer {
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.heroMessage {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 18rem;
+    height: 10rem;
+    justify-items: center;
+    position: absolute;
+    top: 11.5rem;
+    margin: 0 2.5rem;
+}
+
+.heroTitle {
+    margin: 0;
+    font-weight: 600;
+}
+
+.heroDescription {
+    text-align: center;
+    margin: 0;
+}
+
+.heroImage {
+    height: 100%;
+    width: 100vw;
+}
+
+.heroImageTablet,
+.heroImageDesktop {
+    display: none;
+}
+
+.heroButton {
+    background-color: rgba(244, 201, 72, 255);
+    width: 17rem;
+    padding: 0.5rem 0;
+    border-radius: 1rem;
+
+}
+
+/* Responsive Layout */
+
+/* Tablet */
+
+@media (min-width:600px) {
+    .heroContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .heroImage {
+        display: none;
+    }
+
+    .heroImageTablet {
+        display: block;
+        width: 100vw;
+        height: 100%;
+
+    }
+
+    .heroMessage {
+        top: 21rem;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+/* Desktop */
+@media (min-width:960px) {
+    .heroImageTablet {
+        display: none;
+    }
+
+    .heroImageDesktop {
+        display: block;
+        width: 100vw;
+        height: 100%;
+    }
+
+    .heroMessage {
+        width: 23rem;
+        height: 15rem;
+        top: 25rem;
+        font-size: 1.8rem;
+
+    }
+}

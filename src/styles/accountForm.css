@@ -1,0 +1,58 @@
+/* Create an Account Form */
+
+.accountFormContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.accountForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 2rem;
+    justify-items: end
+}
+
+.emailInput,
+.passwordInput {
+    height: 2.35rem;
+    width: 70vw;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgba(244, 201, 72, 255);
+}
+
+label {
+    font-weight: 800;
+}
+
+.submitButton {
+    background-color: rgba(244, 201, 72, 255);
+    border-color: rgba(244, 201, 72, 255);
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    padding: 0.5rem;
+    align-self: flex-end;
+}
+
+.deleteAccountContainer {
+    margin-left: 2rem;
+}
+
+
+
+.welcomeMessage{
+    margin-top: 2rem;
+}
+
+.logoutButton {
+    background-color: rgba(244, 201, 72, 255);
+    border-color: rgba(244, 201, 72, 255);
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    
+}

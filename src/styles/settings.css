@@ -1,0 +1,42 @@
+.settingsList {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: rgb(211, 211, 211, 0.5);
+    border-radius: 1rem;
+}
+
+.settingsLink {
+    text-decoration: none;
+    color: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.settingsListItem {
+    font-weight: 600;
+}
+
+.settingsListArrow {
+    fill: black;
+    height: 1.5rem;
+    width: 1.5rem;
+
+}
+
+/* Responsive Layout */
+/* Tablet */
+@media (min-width:600px) {
+
+    .settingsList {
+        width: fit-content;
+    }
+}
+
+
+/* Desktop */
+@media (min-width:960px) {}

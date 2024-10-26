@@ -1,0 +1,8 @@
+/* Go back button */
+.arrowBack {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(244, 201, 72, 255);
+    margin: 0.5rem;
+    border-radius: 1.5rem;
+}

@@ -1,0 +1,47 @@
+/* Homepage */
+
+.categoriesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+
+}
+
+.categoryCard {
+  background-color: rgba(244, 201, 72, 255);
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: stretch;
+  min-height: 20vh;
+  max-height: 40vh;
+}
+
+.categoryPicture {
+  height: 8rem;
+  width: auto;
+}
+
+.categoryLink {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
+@media (min-width:960px) {
+  .categoriesContainer {
+   
+    display: flex;
+
+  }
+
+}

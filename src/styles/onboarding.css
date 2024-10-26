@@ -1,0 +1,36 @@
+/* Onboarding */
+
+.logoContainer {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 10vh 50vh;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+}
+
+.onboardingButtonsContainer {
+  display: grid;
+  height: 30vh;
+  justify-items: center;
+  margin-bottom: 4rem;
+}
+
+.onboardingTitle {
+  font-size: 2.5rem;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  text-align: center;
+}
+
+.onboardingButton {
+  background-color: rgba(244, 201, 72, 255);
+  border-color: rgba(244, 201, 72, 255);
+  border-radius: 0.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
